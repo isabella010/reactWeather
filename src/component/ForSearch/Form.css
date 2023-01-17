@@ -1,0 +1,7 @@
+.fakeJumbotron{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 2em;
+    font-family: 'Lucida Grande', Geneva, Verdana, sans-serif;
+}

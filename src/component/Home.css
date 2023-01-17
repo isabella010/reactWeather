@@ -1,0 +1,43 @@
+.app{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding:1em;
+  }
+
+  .userLocation{
+    padding:1em, 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: #d5e7eb;
+    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #FFF192 95%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 95%, #FFF192 95%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 90%, #FFF192 90%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 92%, #FFEA61 92%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 85%, #FFEA61 85%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 89%, #FFEA61 89%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 80%, #FFDD3C 80%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 86%, #FFDD3C 86%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 75%, #FFDD3C 75%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 83%, #FFD400 83%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 70%, #FFD400 70%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 80%, #FFD400 80%);
+                        /*background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+                        linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+                        linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%); */ 
+  }
