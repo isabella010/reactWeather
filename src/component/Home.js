@@ -69,8 +69,8 @@ function Home() {
                                 src={`http://openweathermap.org/img/wn/${icon}.png`} 
                                 alt={`Weather icon for ${weather}`} 
                             />
-                        <br>
                         </h2> 
+                        <br>
                     </div>
                 )}
             </ReactBootStrap.Card>
