@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "npx browserslist@latest --update-db",
     "build": "react-scripts build",
     "build:ci": "CI=false npm run build",
     "test": "react-scripts test",
