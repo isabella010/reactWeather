@@ -55,19 +55,21 @@ function Home() {
                 <button onClick={fetchLocalWeather}>Get Weather</button>
                 {isDataLoaded && (
                     <div className="userLocation"> 
-                        <h1>{city} 
+                    <br>
+                        <h1> {city} 
                             <img 
                                 src={`http://openweathermap.org/images/flags/${countryID}.png`} 
                                 alt={`${countryID} flag`} 
                             />
                         </h1>
-                        <h2>{datetime}</h2>
-                        <h2>{temp} °C</h2>
-                        <h2>{weather} 
+                        <h2> {datetime}</h2>
+                        <h2> {temp} °C</h2>
+                        <h2> {weather} 
                             <img 
                                 src={`http://openweathermap.org/img/wn/${icon}.png`} 
                                 alt={`Weather icon for ${weather}`} 
                             />
+                        <br>
                         </h2> 
                     </div>
                 )}
